@@ -1,0 +1,89 @@
+img { 
+    max-width:100%; 
+    height:auto; 
+}
+
+.logo {
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* .description_part {
+    position: relative;
+} */
+
+
+
+/* .login {
+    position: absolute;
+    width: 83%;
+    top: 30.5%;
+    left: 9%;
+} */
+
+/* .questionnaire {
+    position: absolute;
+    width: 83%;
+    top: 73.8%;
+    left: 9%;
+} */
+
+.online_guidence {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.salon {
+    /* width: 100%;
+    margin-top: 30px; */
+    margin-bottom: 5px;
+}
+
+/* .event {
+    width: 100%;
+}
+
+.exhibitor {
+    overflow: hidden;
+    margin-bottom: 3px;
+} */
+
+.format {
+    width: 75.5%;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.bottom_part {
+    width: 22.5%;
+    float: right;
+    margin-left: 3px;
+}
+
+.zoom {
+    width: 95%;
+    /* height: 72px; */
+
+}
+
+.hp {
+    width: 95%;
+    /* height: 72px; */
+}
+
+.links {
+    width: 100%;
+}
+
+.insta {
+    width: 100%;
+}
+
+.last {
+    width: 100%;
+    margin-top: 30px;
+}

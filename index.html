@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+		<meta name="viewport" content="width=device-width">
+
+		<meta name="description" content="6/29開催! 大阪モード学園 オンライン学内ガイダンスのページです。">
+		<meta name="keywords" content="学内ガイダンス,美容学生,サロン">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<title>6/29 オンライン学内ガイダンス</title>
+		<style type="text/css"></style>
+
+		<!-- <script type="text/javascript">
+		function check_number(){
+			if(form2.free_word2.value.match(/^[0-9]+$/)){
+			alert(form2.free_word2.value);}
+			else{alert("error!");}
+		}
+		</script> -->
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<table width="100%" cellspacing="0" cellpadding="0" style="border:0px solid blue;" bgcolor="white" align="center">
+			<header>
+				<img class="logo" src="./images/logo.jpg" alt="online_guidence_logo">
+				<img class="top" src="./images/top.jpg" alt="top">
+			</header>
+			<div class="mainview">
+                <div class="description_part">
+					<img class="online_guidence" src="./images/title.jpg" alt="title">
+					<!-- <div class="login">
+						<a href="">
+							<img src="./images/login.jpg" alt="login">
+                        </a>
+                    </div> -->
+                    <!-- <div class="questionnaire">
+                        <a href="">
+							<img src="./images/questionnaire.jpg" alt="login">
+						</a>
+					</div> -->
+				</div>
+				
+				<img class="salon" src="./images/salon.jpg" alt="サロン一覧">
+                
+                <!-- ヘアーフラップ  -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/FLAP.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://zoom.us/j/93436245609?pwd=WHpHT0JZQ00xWGx2aE93elhnbEs1dz09">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="http://hairflap.com">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+				<!-- チュラ  -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/Chura.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://us04web.zoom.us/j/74549303341?pwd=Z2lsWndkZGxvTXpwRG1XVlNsRGpVZz09 ">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="http://www.hairmake-chura.com">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+				<!-- ブランニュー -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/Brand-new.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://us04web.zoom.us/j/78428108856?pwd=UTF6Z3ZNM2lCcjB1SmhGbDRVMUVXdz099">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="http://www.hairmake-brandnew.com">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+				<!-- NYNY -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/NYNY.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://us04web.zoom.us/j/75425790626?pwd=SmlOTEp5YVpGTFp0R0NtWTM5d0lDdz099">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="https://www.nyny.co.jp">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+				<!-- Ash -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/Ash.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://zoom.us/j/96793914296?pwd=SGl5U01NdGNtYzFzOXB5SjdIMmRDUT099">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="https://ash-hair.com">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+				<!-- trico -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/trico.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://zoom.us/j/96894586868?pwd=NWRGTmppT1h3cEplV3BXOW1HaERwUT099">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="http://www.trico.jp">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+				<!-- PROGRESS -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/PROGRESS.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://zoom.us/j/92978119226?pwd=T3BwNGh2bGRlbDQzbXFNT0tVUGVlZz09">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="https://www.hairwork-progress.jp">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+				<!-- NOISM -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/NOISM.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://us04web.zoom.us/j/74137721804?pwd=Q05xK0xBQkM5MGxJTWw2MVBKV1gvdz09">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="http://noism-hair.com">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+				<!-- APA KABAR -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/APA-KABAR.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://zoom.us/j/91894706186?pwd=ZURsb20vOTNZbUNydkl1TENmUjRFQT099">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="https://www.apakabar-co.jp">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+				<!-- Xanado -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/Xanado.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://us04web.zoom.us/j/76052265398?pwd=WS9jMmZmK09MYXlXWVVjbTZJR1lNQT099">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="https://koshien.xanadu-e.com">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+                </div>
+
+                <!-- KENJE GROUP -->
+				<div class="exhibitor">
+					<div class="format_part">
+						<img class="format" src="./images/KENJE-GROUP.jpg" alt="format">
+					</div>
+					<div class="bottom_part">
+						<a href="https://zoom.us/j/91232028037?pwd=U3JjUlZZZmFRdkhNb0pVZmdNN1pkdz099">
+							<img class="zoom" src="./images/ZOOM.jpg" alt="zoom">
+						</a>
+						<a href="https://www.kenji-group.co.jp/">
+							<img class="hp" src="./images/HP.jpg" alt="hp">
+						</a>
+					</div>
+				</div>
+
+	
+            </div>
+            <footer>
+                <img class="links" src="./images/links.jpg" alt="links_logo">
+                <a href="https://www.instagram.com/bestar_official_/">
+                    <img class="insta" src="./images/insta.jpg" alt="insta">
+                </a>
+                <img class="last" src="./images/last.jpg" alt="last">
+			</footer>
+		</table>
+	</body>
+</html>
