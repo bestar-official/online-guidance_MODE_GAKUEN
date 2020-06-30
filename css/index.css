@@ -12,9 +12,9 @@ img {
     margin-bottom: 30px;
 }
 
-/* .description_part {
+.description_part {
     position: relative;
-} */
+}
 
 
 
@@ -25,12 +25,12 @@ img {
     left: 9%;
 } */
 
-/* .questionnaire {
+.questionnaire {
     position: absolute;
     width: 83%;
-    top: 73.8%;
+    top: 70.8%;
     left: 9%;
-} */
+}
 
 .online_guidence {
     width: 100%;
